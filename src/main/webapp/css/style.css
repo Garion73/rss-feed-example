@@ -1,0 +1,116 @@
+/** STANDARD TAGS *************************************************************/
+body {
+	background: #f0f0f0;
+	color: #646464;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+* {margin: 0px; padding: 0px;}
+h1 {
+	font-size: 20px;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 18px;
+}
+h2 {
+	font-size: 18px;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	margin-bottom: 16px;
+}
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 12px;
+}
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
+p {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+a:link, a:visited {
+	color: #9d614d;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover, a:active { 
+	color: #787878;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+/** PAGE LAYOUT TAGS **********************************************************/
+.content {
+	position: relative;
+	background: #f0f0f0;
+	text-align: left;
+	margin: 20px;
+	width: 640px;
+}
+.list {
+	position: relative;
+	float: left;
+	color: #525252;
+	font-size: 12px;
+}
+.list .item {
+	position: relative;
+	float: left;
+	margin: 4px 0px 4px 0px;
+}
+.list .item .title {
+	position: relative;
+	float: left;
+	font-weight: bold;
+	width: 600px;
+}
+.list .item .title .date {
+	font-weight: normal;
+	margin-left: 10px;
+}
+.list .item .description {
+	position: relative;
+	float: left;
+	width: 600px;
+	margin: 8px 0px 0px 8px;
+}
+.list .item a:link, .list .item a:visited {
+	display:block;
+	position:relative;
+	float:left;
+	margin: 4px 0px 0px 8px;
+}
+.list .item a:hover, .list .item a:active {
+	display:block;
+	position:relative;
+	float:left;
+	margin: 4px 0px 0px 8px;
+}
+.list .hrdiv {
+	background-color: #dcdcdc;
+	position: relative;
+	float: left;
+	width: 600px;
+	height: 1px;
+	margin: 6px 0px 6px 0px;
+}
